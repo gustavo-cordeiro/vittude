@@ -1,0 +1,13 @@
+
+@layer base {
+  input {
+    @apply rounded block w-full border border-slate-200 p-3 text-sm mb-5
+  }
+  label {
+    @apply text-sm block mb-1
+  }
+  
+  button, [type='button'], [type='reset'], [type='submit']  {
+    @apply rounded-lg p-3 text-center w-full bg-vittude-primary hover:bg-vittude-700 disabled:bg-slate-500 text-white mb-2 transition-all
+  }
+}
