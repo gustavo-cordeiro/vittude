@@ -7,7 +7,7 @@ export default function LoginForm () {
       <input type="email" placeholder="email@exemplo" id="email"/>
       <label htmlFor="password">Senha</label>
       <input type="password" id="password"/>
-      <Button itemType="submit" className={`max-sm:bg-vittude-800 max-sm:hover:bg-vittude-900  max-sm:text-vittude-50`}>Acessar</Button>
+      <Button itemType="submit" className={`max-sm:bg-vittude-800 max-sm:hover:bg-vittude-900 max-sm:text-vittude-50`}>Acessar</Button>
     </form>
   )
 }

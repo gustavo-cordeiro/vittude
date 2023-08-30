@@ -13,14 +13,14 @@ export default function LoginLayout({
   return (
     <main className="min-h-screen sm:bg-gradient-to-r bg-gradient-to-b to-vittude-primary from-50% from-white to-50%">
       <div className="container px-8 sm:w-[80.5%] sm:px-0 max-w-7xlxl mx-auto">
-        <header className="flex justify-between items-center py-6 z-10">
+        <header className="flex justify-between items-center py-6 z-10 relative">
           <div>
             <a href='/' title='Vittude home page'>
               <span className="-indent-[9999em] inline-block bg-image bg-cover bg-no-repeat bg-[url('/vittude-care.png')] sm:w-[107px] w-[67px] sm:h-8 h-5">Vittude</span>
             </a>
           </div>
           <nav>
-            <ul className="flex justify-around gap-5 sm:gap-10 leading-6 text-sm sm:text-base text-slate-700 sm:text-inherit">
+            <ul className="flex text-slate-700 justify-around gap-5 leading-6 text-sm sm:gap-10 sm:text-base sm:text-white">
               <li><a href="#">Site Institucional</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#"><span className="-indent-[9999em] inline-block bg-slate-700 sm:bg-white [mask:url('/public.svg')_no-repeat_center] w-6 h-6">Social</span></a></li>
