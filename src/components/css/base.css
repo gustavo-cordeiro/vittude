@@ -10,4 +10,8 @@
   button, [type='button'], [type='reset'], [type='submit']  {
     @apply rounded-lg p-3 text-center w-full bg-vittude-primary hover:bg-vittude-700 disabled:bg-slate-500 text-white mb-2 transition-all
   }
+
+  form {
+    @apply invalid:[&>input:invalid]:border-red-600 invalid:[&>input:invalid]:animate__animated invalid:[&>input:focus:invalid]:animate__headShake invalid:[&>input]:animate__repeat-2
+  }
 }
