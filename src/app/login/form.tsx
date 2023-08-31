@@ -17,14 +17,11 @@ export default function LoginForm() {
     /*
       We define the input fields as required
       to validate the form after a first interaction,
-      preventing the first time the field is rendered
+      preventing the first time were the field is rendered
       empty from being considered an error
     */
     emailRef.current?.setAttribute('required', 'true');
     pwdRef.current?.setAttribute('required', 'true');
-
-    pwdRef.current?.setCustomValidity('');
-    emailRef.current?.setCustomValidity('');
 
     pwdRef.current?.reportValidity();
     emailRef.current?.reportValidity();

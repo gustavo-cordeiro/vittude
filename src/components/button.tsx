@@ -6,17 +6,15 @@ export type Button = {
   variant?: 'default' | 'outline'
 } & HtmlHTMLAttributes<HTMLButtonElement>;
 
-const Button: FC<Button> = props => {
-  
+const Button: FC<Button> = ({
+  variant = 'default',
+  ...props
+}) => { 
   const className = useMemo(() => {
-    return `${props.variant === 'outline' ? OutlinedStyles : ''} ${props.className}`;
-  }, [props.variant, props.className])
+    return `${variant === 'outline' ? OutlinedStyles : ''} ${props.className}`;
+  }, [variant, props.className])
   
   return <button {...props} className={className}/>
 }
-
-Button.defaultProps = {
-  variant: 'default'
-};
 
 export default Button;
