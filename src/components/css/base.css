@@ -1,17 +1,17 @@
 
 @layer base {
   input {
-    @apply rounded block w-full border border-slate-200 p-3 text-sm mb-5
+    @apply rounded block w-full border border-slate-200 p-3 text-sm mb-5 text-slate-700;
+    @apply invalid:border-red-600 invalid:animate__animated invalid:animate__headShake invalid:animate__repeat-3;
+
   }
   label {
     @apply text-sm block mb-1
   }
   
   button, [type='button'], [type='reset'], [type='submit']  {
-    @apply rounded-lg p-3 text-center w-full bg-vittude-primary hover:bg-vittude-700 disabled:bg-slate-500 text-white mb-2 transition-all
+    @apply rounded-lg p-3 text-center w-full bg-vittude-primary text-white mb-2 transition-all;
+    @apply hover:bg-vittude-700 disabled:bg-slate-500;
   }
 
-  form {
-    @apply invalid:[&>input:invalid]:border-red-600 invalid:[&>input:invalid]:animate__animated invalid:[&>input:focus:invalid]:animate__headShake invalid:[&>input]:animate__repeat-2
-  }
 }
