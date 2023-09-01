@@ -29,7 +29,7 @@ Não vamos fornecer nenhuma API para conexão, mas sinta-se à vontade para inte
 
 - [x] Fidelidade ao protótipo fornecido;
 - [x] Componentização da interface;
-- [ ] Estados de _hover_, _click_, _active_ e _error_;
+- [x] Estados de _hover_, _click_, _active_ e _error_;
 - [x] Solução para layout responsivo/adaptativo;
 
 ### Front-end 🤖
@@ -37,14 +37,14 @@ Não vamos fornecer nenhuma API para conexão, mas sinta-se à vontade para inte
 - [x] Código semântico;
 - [x] Escolha coerente das ferramentas;
 - [x] Utilização correta das ferramentas escolhidas;
-- [ ] Arquitetura e organização do projeto;
+- [x] Arquitetura e organização do projeto;
 - [x] Utilização do git;
 - [ ] Testes automatizados;
 
 ### Bônus ✨
 
-- [ ] Funcionalidade de mostrar a senha;
-- [ ] Integração com API e feedback de login;
+- [x] Funcionalidade de mostrar a senha;
+- [x] Integração com API e feedback de login;
 - [ ] Funcionalidade de recuperação de senha;
 
 ## Recursos 📚
@@ -68,16 +68,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Para rodar a aplicação
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Abra [http://localhost:3000](http://localhost:3000), para fazer login basta utilizar qualquer email com senha 1234
+Para fazer logout, precisa limpar os cookies da aplicação
